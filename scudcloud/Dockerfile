@@ -13,7 +13,7 @@
 #	jess/scudcloud
 
 FROM ubuntu:16.04
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
 

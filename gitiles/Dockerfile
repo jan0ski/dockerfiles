@@ -1,5 +1,5 @@
 FROM l.gcr.io/google/bazel:latest
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 # https://gerrit.googlesource.com/gitiles/
 ENV GITILES_VERSION v0.4

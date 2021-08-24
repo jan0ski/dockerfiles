@@ -10,7 +10,7 @@
 #	jess/figma-wine bash
 #
 FROM r.j3ss.co/wine
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 ENV HOME /home/user
 RUN useradd --create-home --home-dir $HOME user \

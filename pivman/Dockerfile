@@ -10,7 +10,7 @@
 #	jess/pivman
 #
 FROM ubuntu:16.04
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
 	software-properties-common \

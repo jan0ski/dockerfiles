@@ -1,5 +1,5 @@
 # DESCRIPTION:	  Create transmission container with its dependencies
-# AUTHOR:		  Jessie Frazelle <jess@linux.com>
+# AUTHOR:		  jan0ski <mccormickt9@gmail.com>
 # COMMENTS:
 #	This file describes how to build a transmission container with all
 #	dependencies installed. It uses native X11 unix socket.
@@ -18,7 +18,7 @@
 
 # Base docker image
 FROM debian:bullseye-slim
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 # Install transmission and its dependencies
 RUN apt-get update && apt-get install -y \

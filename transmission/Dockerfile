@@ -1,5 +1,5 @@
 # DESCRIPTION:	  Create transmission container with its dependencies
-# AUTHOR:		  Jessie Frazelle <jess@linux.com>
+# AUTHOR:		  jan0ski <mccormickt9@gmail.com>
 # COMMENTS:
 #	This file describes how to build a transmission container with all
 #	dependencies installed.
@@ -19,7 +19,7 @@
 
 # Base docker image
 FROM alpine:latest
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 # machine parsable metadata, for https://github.com/pycampers/dockapt
 LABEL "registry_image"="r.j3ss.co/transmission"

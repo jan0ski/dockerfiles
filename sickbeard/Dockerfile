@@ -10,7 +10,7 @@
 # 	jess/sickbeard
 #
 FROM alpine:latest
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 
 RUN apk add --no-cache \

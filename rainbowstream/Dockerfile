@@ -8,7 +8,7 @@
 #	jess/rainbowstream
 #
 FROM python:2-alpine
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 RUN apk --no-cache add \
 	build-base \

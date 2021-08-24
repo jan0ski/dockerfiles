@@ -1,5 +1,5 @@
 # DESCRIPTION:	  Create the atom editor in a container
-# AUTHOR:		  Jessie Frazelle <jess@linux.com>
+# AUTHOR:		  jan0ski <mccormickt9@gmail.com>
 # COMMENTS:
 #	This file describes how to build the atom editor
 #	in a container with all dependencies installed.
@@ -21,7 +21,7 @@
 # Base docker image
 FROM debian:bullseye-slim
 
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 # Tell debconf to run in non-interactive mode
 ENV DEBIAN_FRONTEND noninteractive

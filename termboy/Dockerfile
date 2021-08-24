@@ -1,5 +1,5 @@
 # DESCRIPTION:	  Termboy in a container
-# AUTHOR:		  Jessie Frazelle <jess@linux.com>
+# AUTHOR:		  jan0ski <mccormickt9@gmail.com>
 # COMMENTS:
 #	This file describes how to build termboy
 #	in a container with all dependencies installed.
@@ -18,7 +18,7 @@
 
 # Base docker image
 FROM debian:bullseye-slim
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
 

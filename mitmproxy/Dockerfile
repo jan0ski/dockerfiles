@@ -1,5 +1,5 @@
 FROM debian:bullseye-slim
-LABEL maintainer "Jessie Frazelle <jess@linux.com>"
+LABEL maintainer "jan0ski <mccormickt9@gmail.com>"
 
 ENV LANG=en_US.UTF-8
 
